@@ -48,6 +48,18 @@ A full‑stack, Google‑authenticated collaborative IDE (like Google Docs for c
 
 ---
 
+### 📂 FileDrive – Cloud File Storage Backend  
+A secure, team-friendly backend API for cloud file storage and management (Google Drive-like).  
+[🔗 Repo](https://github.com/mohankumarkadiri/File-Drive)
+
+- **Auth & Security:** Google OAuth2, RBAC (`OWNER` / `EDITOR` / `VIEWER`)  
+- **File Ops:** Upload, download, soft delete (Trash), permanent delete, S3-backed storage  
+- **Folder Ops:** Nested folders, rename, list, prevent duplicates  
+- **Sharing:** Fine-grained permissions at file/folder level  
+- **Extras:** Scheduled trash cleanup, structured logging, modular & extensible design  
+
+---
+
 ### 🤖 Cyberbullying Detection using BERT  
 Multi‑modal cyberbullying classifier (text, image, audio, video).  
 [🔗 Repo](https://github.com/kadirikumar-uptycs/Cyberbullying_Classification) • [▶️ Demo](https://github.com/kadirikumar-uptycs/Cyberbullying_Classification/blob/main/result.mp4)
