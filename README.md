@@ -71,6 +71,8 @@ A lightweight VS Code extension that provides **inline hover previews** for envi
 
 [![VS Code Marketplace](https://img.shields.io/visual-studio-marketplace/v/mohankumarkadiri.env-lens?label=VS%20Code%20Marketplace&logo=visualstudiocode)](https://marketplace.visualstudio.com/items?itemName=mohankumarkadiri.env-lens) [![Installs](https://img.shields.io/visual-studio-marketplace/i/mohankumarkadiri.env-lens?color=brightgreen)](https://marketplace.visualstudio.com/items?itemName=mohankumarkadiri.env-lens) [![Node.js](https://img.shields.io/badge/Node.js-339933?logo=nodedotjs&logoColor=white)](https://nodejs.org/) [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript) [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/) [![VS Code Extension](https://img.shields.io/badge/VS%20Code%20Extension-007ACC?logo=visualstudiocode&logoColor=white)](https://marketplace.visualstudio.com/items?itemName=mohankumarkadiri.env-lens)
 
+[🔗 Repo](https://github.com/mohankumarkadiri/env-lens)
+
 - Hover over `process.env.VAR_NAME` to instantly see the value of `VAR_NAME` from your `.env` file  
 - No need to repeatedly open `.env` files while coding  
 - Automatically loads environment variables from your workspace root  
