@@ -5,7 +5,7 @@
 \usepackage[hidelinks]{hyperref}
 \usepackage{titlesec}
 
-% Encoding & fonts (improves PDF text extraction)
+% Encoding & fonts
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
@@ -30,26 +30,36 @@
   {\LARGE\bfseries Kadiri Mohan Kumar}\\
   \vspace{3pt}
   \small
-  Software Engineer \textbar{} Backend \& Security \textbar{} System Design Enthusiast\\
+  \textbf{Software Engineer \textbar{} Backend \& Security \textbar{} System Design Enthusiast}\\
   \href{mailto:kadirimohankumar1709@gmail.com}{kadirimohankumar1709@gmail.com} \textbar{} +91-74165-32127 \textbar{} Hyderabad, India\\
   \href{https://mohankumarkadiri.vercel.app}{Portfolio} \textbar{} \href{https://github.com/mohankumarkadiri}{GitHub} \textbar{} \href{https://www.linkedin.com/in/mohankumarkadiri/}{LinkedIn}
 \end{center}
 
 %===== SUMMARY =====
 \section*{Summary}
-Software Engineer with 2+ years of experience building secure, scalable backends using Node.js, Python, Docker, and AWS. Strong background in data structures and algorithms with competitive programming experience (550+ LeetCode problems, top 1\%). Developed production-level tools used by global teams. Active open source contributor, enthusiastic about system design, performance tuning, and developer productivity.
+Software Engineer with 2+ years of experience building secure, scalable backends and distributed systems using Node.js, Python, and cloud platforms (AWS/GCP). Strong foundation in algorithms, data structures, and system design. Open-source contributor with published VS Code extensions.
+
+%===== TECHNICAL SKILLS =====
+\section*{Technical Skills}
+\begin{itemize}[leftmargin=*,itemsep=2pt]
+  \resumeItem{\textbf{Programming Languages:} Python, C++, JavaScript, Java}
+  \resumeItem{\textbf{Backend Development:} Node.js, Express, Django, REST APIs, AWS Lambda, Docker}
+  \resumeItem{\textbf{Frontend Development:} React.js, HTML, CSS}
+  \resumeItem{\textbf{Databases:} MongoDB, MySQL, PostgreSQL, Redis}
+  \resumeItem{\textbf{Cloud \& Tools:} AWS, GCP, Git, Socket.IO, Osquery}
+  \resumeItem{\textbf{Core Expertise:} System Design, Scalable Architectures, Security Engineering, Algorithms}
+\end{itemize}
 
 %===== EXPERIENCE =====
 \section*{Experience}
-\resumeSubheading{Uptycs}{Jun 2023 -- Present}{Security Solutions Engineer}{Hyderabad, India}
+\resumeSubheading{Uptycs}{Jun 2023 -- Present}{Software Engineer – Security Solutions}{Hyderabad, India}
 \begin{itemize}[leftmargin=*,itemsep=2pt]
-  \resumeItem{Developed and deployed \textbf{IBM QRadar apps} for endpoint telemetry visualization, now used by 10+ enterprise clients.}
-  \resumeItem{Developed \textbf{third-party integrations} (Splunk, GsecOps) to export detections and alerts, used by more than 95\% of the customers.}
-  \resumeItem{Built automation pipelines with \textbf{AWS Lambda (Python/Node.js)} to process and forward alerts, reducing manual operations by 40\%.}
-  \resumeItem{Integrated \textbf{Slack, Jira, Zoho APIs} for real-time alerting and triage, cutting incident response times by 50\%.}
-  \resumeItem{Built internal tool using React.js and Node.js to automate data migration, reducing manual effort by \textbf{60\%}.}
-  \resumeItem{Implemented \textbf{SQL-based dynamic asset} tagging workflows, reducing manual tagging overhead by 50\%.}
-  \resumeItem{Helped \textbf{10+} clients to export detections via Uptycs APIs to Splunk and S3.}
+  \resumeItem{Engineered and deployed \textbf{IBM QRadar apps} for endpoint telemetry visualization, adopted by \textbf{10+} enterprise clients.}
+  \resumeItem{Delivered \textbf{third-party integrations} (Splunk, GsecOps) to export EDR data, supporting \textbf{95\% of customers}.}
+  \resumeItem{Implemented Osquery log parser to track restarts, event volume, and queries, improving monitoring accuracy by \textbf{70\%}.}
+  \resumeItem{Automated GitHub backups for customer data, cutting manual effort by \textbf{90\%}.}
+  \resumeItem{Streamlined asset tagging via SQL-based dynamic workflows, lowering manual effort by \textbf{50\%}.}
+  \resumeItem{Developed migration tool that reduced cross-system data transfer effort by \textbf{60\%}.}
 \end{itemize}
 
 %===== PROJECTS =====
@@ -57,14 +67,12 @@ Software Engineer with 2+ years of experience building secure, scalable backends
 \textbf{Real-Time Collaborative Code Editor} \hfill \href{https://github.com/mohankumarkadiri/collab-code-editor}{GitHub}
 \vspace{6pt}
 \begin{itemize}[leftmargin=*,itemsep=2pt]
-  \resumeItem{Built Google-authenticated, invite-only collaborative IDE with React, Monaco Editor and Socket.IO, supporting 50+ concurrent users.}
-  \resumeItem{Implemented room-based access control and OAuth2 flow, preventing 100\% unauthorized joins.}
-  \resumeItem{Used Redis for session and socket mapping, reducing lookup time by 70\%.}
-  \resumeItem{Synced language changes in real time. The host can change the coding language and guests follow instantly.}
-  \resumeItem{Handled network interruptions with auto-reconnect and session recovery, improving reliability by 60\%.}
-  \resumeItem{Containerized client and server with Docker Compose and .env configs, cutting setup time by 80\%.}
-  \resumeItem{Persisted user editor settings (theme, font size, tab width, wrap, minimap) in MongoDB for consistent experience.}
-  \resumeItem{Designed clean error handling and notifications for join/leave events, boosting user clarity and trust.}
+  \resumeItem{Designed invite-only collaborative IDE with Google authentication, React, Monaco Editor, and Socket.IO, supporting \textbf{50+ concurrent users}.}
+  \resumeItem{Enforced OAuth2-based room access, preventing \textbf{100\%} unauthorized joins.}
+  \resumeItem{Optimized session mapping with Redis, cutting lookup times by \textbf{70\%}.}
+  \resumeItem{Improved reliability with auto-reconnect and session recovery, reducing failures by 60\%.}
+  \resumeItem{Containerized system with Docker Compose, reducing environment setup by 80\%.}
+  \resumeItem{Persisted user preferences in MongoDB for consistent cross-device experience.}
 \end{itemize}
 
 \vspace{6pt}
@@ -72,60 +80,52 @@ Software Engineer with 2+ years of experience building secure, scalable backends
 \textbf{FileDrive - Cloud File Storage Backend} \hfill \href{https://github.com/mohankumarkadiri/File-Drive}{GitHub}
 \vspace{6pt}
 \begin{itemize}[leftmargin=*,itemsep=2pt]
-  \resumeItem{Developed a secure, Google OAuth 2.0-authenticated cloud file storage backend using Node.js, Express, MongoDB, Redis, and AWS S3.}
-  \resumeItem{Implemented hierarchical folder management with materialized-path schema, enabling deep folder nesting and sub-100ms directory listings.}
-  \resumeItem{Built fine-grained per-user access control (OWNER/EDITOR/VIEWER) at both file and folder levels with dynamic permission updates.}
-  \resumeItem{Enabled secure file operations: upload, streaming downloads, move to Trash (soft-delete), permanent deletion, and duplicate prevention.}
-  \resumeItem{Automated Trash cleanup with cron jobs, configurable retention, and storage reclamation (~10\% of storage).}
-  \resumeItem{Created shareable links with expirable tokens for team collaboration while enforcing role-based permissions.}
-  \resumeItem{Stateless servers architected for horizontal scaling behind a load balancer.}
+  \resumeItem{Developed secure, Google OAuth 2.0-authenticated cloud file storage backend with Node.js, Express, MongoDB, Redis, and AWS S3.}
+  \resumeItem{Built folder hierarchy with materialized-path, enabling deep nesting and \textbf{$<$100ms} lookups.}
+  \resumeItem{Designed fine-grained access control (OWNER/EDITOR/VIEWER) with dynamic permission updates.}
+  \resumeItem{Delivered secure file operations: upload, streaming download, soft-delete, permanent deletion, and duplicate prevention.}
+  \resumeItem{Automated Trash cleanup with cron jobs, reclaiming \textbf{~10\%} of storage capacity.}
+  \resumeItem{Generated shareable links with expirable tokens, supporting collaborative use cases.}
+  \resumeItem{Architected stateless servers for horizontal scalability behind load balancers.}
 \end{itemize}
 
 \vspace{6pt}
 
 \textbf{Env-Lens - VS Code Extension} \hfill
-GitHub: https://github.com/mohankumarkadiri/env-lens \textbar{} Marketplace: https://marketplace.visualstudio.com/items?itemName=mohankumarkadiri.env-lens&ssr=false
+\href{https://github.com/mohankumarkadiri/env-lens}{GitHub} \textbar{} \href{https://marketplace.visualstudio.com/items?itemName=mohankumarkadiri.env-lens&ssr=false}{Marketplace}
+
 \vspace{3pt}
 \begin{itemize}[leftmargin=*,itemsep=2pt]
-  \resumeItem{Built VS Code extension for inline hover previews of environment variables via \texttt{process.env.*}.}
+  \resumeItem{Created open-source VS Code extension for inline hover previews of environment variables via \texttt{process.env.*}.}
   \resumeItem{Auto-loads \textbf{1000+} workspace \texttt{.env} variables, eliminating manual lookups and improving debugging speed by \textbf{~30\%}.}
-  \resumeItem{Published on VS Code Marketplace, reaching \textbf{5+ installs} in one day.}
-\end{itemize}
+  \resumeItem{Published on VS Code Marketplace, reaching \textbf{5+ installs within 24 hours}.}
+  \resumeItem{Engineered with \textbf{Node.js} and \textbf{VS Code API}, ensuring seamless IDE integration.}
 
-%===== SKILLS =====
-\section*{Skills}
-\begin{itemize}[leftmargin=*,itemsep=2pt]
-  \resumeItem{\textbf{Languages:} Python, C++, JavaScript}
-  \resumeItem{\textbf{Backend:} Node.js, Express, Django, REST APIs, AWS Lambda, Docker}
-  \resumeItem{\textbf{Frontend:} React.js, HTML, CSS}
-  \resumeItem{\textbf{Databases:} MongoDB, MySQL, PostgreSQL, Redis}
-  \resumeItem{\textbf{Tools/Platforms:} Git, Socket.IO, AWS, GCP, Osquery}
-  \resumeItem{\textbf{Expertise:} System Design, Scalable Architectures, Security Engineering, Algorithms}
 \end{itemize}
 
 %===== COMPETITIVE PROGRAMMING =====
 \section*{Competitive Programming}
 \begin{itemize}[leftmargin=*,itemsep=2pt]
-  \resumeItem{LeetCode: Guardian badge (550+ problems, \textbf{top 1\%})}  
+  \resumeItem{LeetCode: Solved 550+ problems (\textbf{top 1\%} globally).} 
   \resumeItem{HackerRank: \textbf{6-star} coder}  
   \resumeItem{Google Kick Start: Global Rank \textbf{\#3442}}
 \end{itemize}
 
+
 %===== EDUCATION =====
 \section*{Education}
 \textbf{National Institute of Technology, Andhra Pradesh} \hfill May 2023\\
-B.Tech in Computer Science and Engineering\\
-CGPA: \textbf{8.13/10}
-
+B.Tech in Computer Science and Engineering \hfill CGPA: \textbf{8.13/10}\\
 \vspace{4pt}
-\textbf{Relevant Courses:} Data Structures, Algorithms, Operating Systems, Computer Networks, DBMS, Distributed Systems, OOPS.
+
+\textbf{Relevant Courses:} Data Structures, Algorithms, Operating Systems, Computer Networks, DBMS, Distributed Systems, OOPS
 
 %===== INTERESTS =====
 \section*{Interests}
 \begin{itemize}[leftmargin=*,itemsep=2pt]
-  \resumeItem{Chess}
-  \resumeItem{Music}
-  \resumeItem{Fitness}
+\resumeItem{Chess}
+\resumeItem{Music}
+\resumeItem{Fitness}
 \end{itemize}
 
 \end{document}
