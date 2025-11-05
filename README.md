@@ -3,7 +3,7 @@
 <p align="center">
   <em>Backend Engineer · Security Enthusiast · System Design Thinker · CP Coder</em><br/>
   <a href="https://mohankumarkadiri.vercel.app" target="_blank">🌐 Portfolio</a> •
-  <a href="https://leetcode.com/u/mohankumarkadiri/" target="_blank">🧩 LeetCode (550+ solved)</a> •
+  <a href="https://leetcode.com/u/mohankumarkadiri/" target="_blank">🧩 LeetCode (650+ solved)</a> •
   <a href="https://www.hackerrank.com/profile/mohankumarkadiri" target="_blank">💻 HackerRank</a> •
   <a href="https://www.linkedin.com/in/mohankumarkadiri/" target="_blank">🔗 LinkedIn</a>
 </p>
@@ -12,10 +12,10 @@
 
 ## 🧠 About Me
 
-- 🧑‍💻 Security Solutions Engineer @ [Uptycs](https://www.uptycs.com)  
+- 🧑‍💻 Software Engineer @ [Uptycs](https://www.uptycs.com)  
 - 🌍 Building **secure, scalable backends** with Node.js, Python, C++, AWS & Docker  
-- 🛡️ Passionate about **System Design, Security Automation & Dev Productivity**  
-- 🧩 Solved 550+ LeetCode problems (Guardian badge, top 1%)  
+- 🛡️ Passionate about **System Design, DSA and problem solving**  
+- 🧩 Solved 650+ LeetCode problems (Knight badge, top 1.5%)  
 - 🚀 Open-source enthusiast & library author  
 
 ---
@@ -84,31 +84,39 @@ A lightweight VS Code extension that provides **inline hover previews** for envi
 | ![Defined Example](https://github.com/mohankumarkadiri/env-lens/blob/main/images/defined_example.png) | ![Undefined Example](https://github.com/mohankumarkadiri/env-lens/blob/main/images/undefined_example.png) |  
 
 
-### 🤖 Cyberbullying Detection using BERT  
+### 🌀 Fractals  
 
-[![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)](https://www.python.org/) [![Flask](https://img.shields.io/badge/Flask-000000?logo=flask&logoColor=white)](https://flask.palletsprojects.com/) [![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black)](https://reactjs.org/) [![BERT](https://img.shields.io/badge/BERT-F7DF1E?logo=python&logoColor=black)]() [![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white)](https://pytorch.org/)
+[![HTML](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML) [![CSS](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS) [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript) [![Mathematics](https://img.shields.io/badge/Mathematics-007ACC?logo=wolfram-mathematica&logoColor=white)]()  
 
-Multi‑modal cyberbullying classifier (text, image, audio, video).  
-[🔗 Repo](https://github.com/mohankumarkadiri/Cyberbullying_Classification) • [▶️ Demo](https://github.com/mohankumarkadiri/Cyberbullying_Classification/blob/main/result.mp4)
+Interactive visualizations of famous fractals like the **Mandelbrot set**, **Julia set**, and **Sierpinski triangle**, built using pure **HTML**, **CSS**, and **JavaScript**.  
+[🔗 Repo](https://github.com/mohankumarkadiri/Fractals) • [▶️ Demo](https://github.com/mohankumarkadiri/Fractals/blob/main/README.md)
 
-- OCR & transcription (Image, Audio, Video)  
-- BERT‑based text classification  
-- Whisper for audio/video processing  
+- Real-time fractal generation and zooming  
+- Smooth color gradients and iteration control  
+- Mathematical rendering using complex numbers  
+- Fully interactive and browser-based visualizations
 
 ---
 
-### 📦 cp‑math‑utils – CP Helper Library  
+### 🎮 Breakout Game  
 
-[![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)](https://www.python.org/) [![PyPI](https://img.shields.io/pypi/v/cp-math-utils?color=blue)](https://pypi.org/project/cp-math-utils/)
+[![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)](https://www.python.org/) [![Pygame](https://img.shields.io/badge/Pygame-0E9F6E?logo=python&logoColor=white)](https://www.pygame.org/news) [![Mathematics](https://img.shields.io/badge/Mathematics-007ACC?logo=wolfram-mathematica&logoColor=white)]() [![Game%20Physics](https://img.shields.io/badge/Game%20Physics-FF6F00?logo=unity&logoColor=white)]()  
 
-Python library for Segment Trees, Fenwicks, DSU, CRT, Z/KMP & more.  
-[🔗 Repo](https://github.com/mohankumarkadiri/cp-math-utils) • [📦 PyPI](https://pypi.org/project/cp-math-utils/)
+A fun and interactive **Breakout game** built using **Python** and **Pygame**.  
+Break colorful blocks, bounce the ball, and enjoy smooth arcade gameplay.  
+[🔗 Repo](https://github.com/mohankumarkadiri/BreakoutGame-Pygame) • [▶️ Demo](#)
+
+- Classic block-breaking gameplay
+- Paddle, ball, and block collision logic  
+- Dynamic **block generation** with random colors
+- Uses math for **ball trajectory and bounce angles**  
+- Background music and sound effects  
 
 ---
 
 ## 💻 Competitive Programming
 
-- 🥇 **LeetCode:** Guardian Badge (Top 1%, 550+ solved)  
+- 🥇 **LeetCode:** Knight Badge (Top 1.5%, 650+ solved)  
 - 🧠 **HackerRank:** 6★ coder  
 - 🌐 **Kick Start:** Global Rank #3442  
 
@@ -132,6 +140,7 @@ Python library for Segment Trees, Fenwicks, DSU, CRT, Z/KMP & more.
 - ✉️ [kadirimohankumar1709@gmail.com](mailto:kadirimohankumar1709@gmail.com)  
 - 🌐 [Portfolio](https://mohankumarkadiri.vercel.app)  
 - 🔗 [LinkedIn](https://www.linkedin.com/in/mohankumarkadiri/)
+- 🎮 [Chess.com](https://www.chess.com/member/mohankumarkadiri)
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=mohankumarkadiri&color=blue&style=flat" alt="Profile views" />
