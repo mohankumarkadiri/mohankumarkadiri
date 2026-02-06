@@ -1,0 +1,212 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+\begin{center}
+    {\Huge \scshape Kadiri Mohan Kumar} \\ \vspace{1pt}
+    \small
+    Backend Software Engineer \textbar{} Distributed Systems \textbar{} Security Platforms \\ \vspace{4pt}
+    \href{tel:+917416532127} {\raisebox{-0.1\height}\faPhone\ \underline{+91 7416532127}} ~ \href{mailto:kadirimohankumar1709@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{kadirimohankumar1709@gmail.com}} ~ 
+    \href{https://www.linkedin.com/in/mohankumarkadiri/}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin}}  ~
+    \href{https://github.com/mohankumarkadiri}{\raisebox{-0.2\height}\faGithub\ \underline{github}}
+    \\ \vspace{4pt}Bengaluru, Karnataka, India
+    \vspace{-8pt}
+\end{center}
+
+%-----------Summary-----------
+\section{Summary}
+Senior backend software engineer with $\sim$3 years of experience owning high-throughput, multi-tenant backend services in security platforms. Proven in leading production incident response, scaling event-driven systems processing millions of events per day, and driving improvements in system reliability, latency, and operational stability across distributed systems.
+
+
+
+ %-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {National Institute of Technology , Andhra Pradesh}{July 2019 - June 2023}
+      {B.Tech in Computer Science and Engineering \textbar{} CGPA: 8.13}{Tadepalligudem, Andhra Pradesh}
+  \resumeSubHeadingListEnd
+
+
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \small{\item{
+    \textbf{Languages:} JavaScript (Node.js), Go, Python, C++ \\
+    \textbf{Frameworks:} Express, Django, Gin \\
+    \textbf{Backend Engineering:} Distributed services, REST API design, gRPC, multi-tenant systems, async workflows. \\
+
+    \textbf{Eventing \& Queues:} Kafka (consumer groups, offset management), Redis Pub/Sub, Bull queues (delayed jobs, retries) \\
+
+    \textbf{Data Stores:} PostgreSQL, MongoDB, Redis (caching, rate limiting), high-write schema design \\
+
+    \textbf{Reliability \& Performance:} Backpressure, retry strategies, failure isolation, latency optimization, incident debugging \\
+
+    \textbf{Infrastructure:} AWS, Docker, Kubernetes, CI/CD pipelines, Linux production environments
+  }}
+\end{itemize}
+
+ \vspace{-15pt}
+
+
+
+%-----------Work Experience-----------
+\section{Work Experience}
+\resumeSubHeadingListStart  
+
+\resumeSubheading
+  {UPTYCS}{June 2023 -- Present}
+  {Senior Software Engineer}{}
+\vspace{-6pt}
+
+\resumeItemListStart
+
+\resumeItem{\textbf{Multi-Tenant Alert Delivery Platform}}
+\resumeItemListStart
+  \resumeItem{Owned a tenant-isolated alert delivery service routing security alerts to customer-configured destinations, sustaining 1–2M alerts/day with $>$99.9\% delivery success using asynchronous fan-out, retries, and dead-letter handling.}
+  \resumeItem{Designed destination configuration and routing APIs with strict tenant isolation and role-based access, supporting 20+ external systems and reducing delivery misconfigurations by $\sim$30\%.}
+\resumeItemListEnd
+
+\resumeItem{\textbf{Threat Book Execution Engine}}
+\resumeItemListStart
+  \resumeItem{Designed and owned a distributed execution engine enabling analysts to validate Indicators of Compromise against historical telemetry, reliably executing thousands of threat scans per week.}
+  \resumeItem{Built scheduling, run-tracking, and result aggregation workflows with execution limits and query optimizations to ensure predictable runtimes under concurrent analyst workloads.}
+\resumeItemListEnd
+
+\resumeItem{\textbf{Telemetry Ingestion Services}}
+\resumeItemListStart
+  \resumeItem{Accountable for backend ingestion services processing millions of osquery telemetry events per day, designing high-throughput ingestion paths with validation, batching, and persistence guarantees.}
+  \resumeItem{Tuned buffering and backpressure mechanisms to absorb reconnect storms and bursty agent behavior while maintaining ingestion stability and platform SLAs.}
+\resumeItemListEnd
+
+\resumeItem{\textbf{Detection Auto-Closure Framework}}
+\resumeItemListStart
+  \resumeItem{Designed and owned rule-based auto-close detection policies with delayed closure semantics to reduce alert fatigue without compromising detection quality.}
+  \resumeItem{Reduced low-signal alert noise by 20–30\% while preserving high-severity detections through configurable evaluation windows and policy controls.}
+\resumeItemListEnd
+
+\resumeItem{\textbf{Production Reliability \& Incident Response}}
+\resumeItemListStart
+  \resumeItem{Led investigation of a production-wide latency incident impacting all tenants, identifying Redis contention from feature-toggle evaluation paths.}
+  \resumeItem{Reduced p95 API latency by $\sim$40\% through caching strategy changes and hot-path optimizations, restoring platform SLAs.}
+\resumeItemListEnd
+
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+
+    
+\end{document}
