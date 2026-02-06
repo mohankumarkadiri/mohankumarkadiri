@@ -1,0 +1,226 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+\begin{center}
+    {\Huge \scshape Kadiri Mohan Kumar} \\ \vspace{1pt}
+    \href{tel:+917416532127} {\raisebox{-0.1\height}\faPhone\ \underline{+91 7416532127}} ~ \href{mailto:kadirimohankumar1709@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{kadirimohankumar1709@gmail.com}} ~ 
+    \href{https://www.linkedin.com/in/mohankumarkadiri/}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin}}  ~
+    \href{https://github.com/mohankumarkadiri}{\raisebox{-0.2\height}\faGithub\ \underline{github}}
+    \vspace{-8pt}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {National Institute of Technology , Andhra Pradesh}{July 2019 - June 2023}
+      {B.Tech in Computer Science and Engineering \;|\; CGPA: 8.13}{Tadepalligudem, Andhra Pradesh}
+  \resumeSubHeadingListEnd
+    
+%-----------Work Experience-----------
+\section{Work Experience}
+\resumeSubHeadingListStart  
+
+  \resumeSubheading
+    {UPTYCS}{June 2023 -- Present}
+    {Software Engineer}{}
+    \vspace{-6pt}
+    \resumeItemListStart
+
+\resumeItem{Owned a multi-tenant alert delivery service routing security alerts to customer-configured destinations, sustaining 1-2M alerts/day with $>$99.9\% delivery success through asynchronous fan-out and failure isolation.}
+
+\resumeItem{Designed and owned destination configuration and routing logic with strict tenant isolation and role-based visibility, evolving APIs and schemas to support 10+ external systems and reducing delivery misconfigurations by $\sim$ 30\%.}
+
+\resumeItem{Led investigation of a production-wide latency incident affecting all tenants, identifying Redis contention from feature-toggle evaluation and reducing p95 API latency by $\sim$ 40\% to restore platform SLAs.}
+
+\resumeItem{Owned backend implementation of Threat Books, enabling analysts to validate Indicators of Compromise against historical telemetry and reliably executing thousands of threat scans per week.}
+
+\resumeItem{Designed and implemented a daily threat intelligence ingestion system and a scheduled Threat Book execution service, reducing manual analyst effort and decreasing mean time to detection by approximately $\sim$ 25\%}
+
+\resumeItem{Designed and owned Auto Close Detection policies with rule-based evaluation and delayed closure semantics, reducing alert noise by $\sim$ 20-30\% without impacting high-severity detections.}
+
+\resumeItem{Accountable for backend ingestion services processing millions of osquery telemetry events per day, tuning ingestion and persistence paths to maintain stability under bursty load.}
+
+
+    \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\vspace{-15pt}
+\section{Projects}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{ FileDrive - Cloud File Storage Backend } {\href{https://github.com/mohankumarkadiri/File-Drive}{\color{Blue}{\textbf{link}}}}}{}
+          \resumeItemListStart
+           \resumeItem{Secure \textbf{backend API} for cloud file storage system with \textbf{authentication}, \textbf{file management}, \textbf{trash \& retention}, and \textbf{file sharing}.}
+           \resumeItem{Implemented fine-grained \textbf{access control} (\textbf{OWNER/EDITOR/VIEWER}) and secure file sharing with \textbf{expirable tokens}.}
+           \resumeItem{\textbf{Tools \& Technologies:} Express, MongoDB, Redis, AWS S3, Postman, Git, GitHub.}
+
+          \resumeItemListEnd
+          \vspace{-16pt}
+      \resumeProjectHeading
+          {\textbf{Real-Time Collaborative Code Editor} {\href{https://github.com/mohankumarkadiri/collab-code-editor}{\color{Blue}{\textbf{link}}}}}{}
+          \resumeItemListStart
+            \resumeItem{Built invite-only collaborative IDE using React, Monaco Editor, and Socket.IO with Google OAuth 2.0 authentication, supporting \textbf{50+ concurrent users}.}          
+            \resumeItem{Integrated Redis for session mapping, cutting lookup latency by \textbf{70\%} and improving resilience with auto-reconnect.}
+            \resumeItem{\textbf{Tools \& Technologies Used: } Express, React.js, Socket.io, MongoDB, Redis, Postman, Git, GitHub.}
+          \resumeItemListEnd 
+          \vspace{-16pt}
+      \resumeProjectHeading
+      {\textbf{ Env-Lens - VS Code Extension } {\href{https://github.com/mohankumarkadiri/env-lens}{\color{Blue}{\textbf{link}}}}
+      {\href{https://marketplace.visualstudio.com/items?itemName=mohankumarkadiri.env-lens}{\color{Blue}{\textbf{view}}}}
+      }{}
+          \resumeItemListStart
+            \resumeItem{Created VS Code extension for inline previews of \texttt{process.env} variables, auto-loading \textbf{1000+} variables per workspace enhancing developer debugging efficiency.}
+            \resumeItem{Released on VS Code Marketplace, gaining \textbf{25+ installs}.}
+            \resumeItem{\textbf{Tools \& Technologies Used: } Node.js, VS Code, Git}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+\vspace{-12pt}
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Programming Languages:} JavaScript, Python, C++, Go \\
+     \textbf{Backend Engineering:} Node.js, Express.js, RESTful API Design, Authentication (JWT, OAuth 2.0), API Security \\
+     \textbf{Frontend Technologies:} React.js, Redux, Context API, Vite, Webpack \\
+     \textbf{Databases \& Caching:} PostgreSQL, MySQL, MongoDB, Redis \\
+     \textbf{Cloud \& DevOps:} AWS, Docker, GitHub Actions (CI/CD), Linux \\
+     \textbf{System Fundamentals:} Data Structures \& Algorithms, System Design, Concurrency, Debugging, Performance Optimization \\
+    }}
+ \end{itemize}
+
+ \vspace{-15pt}
+ %-------
+ \section{Coding Profiles}    
+        \textbf{        } \textbf{        }  \textbf{\href{https://leetcode.com/u/mohankumarkadiri/}{Leetcode}}
+        \textbf{          } \textbf{             } \textbf{           }
+        \textbf{\href{https://www.hackerrank.com/profile/mohankumarkadiri}{Hacker Rank}}
+        \textbf{          } \textbf{             } \textbf{           }  \textbf{\href{https://codeforces.com/profile/mohankumarkadiri}{Codeforces}}
+\vspace{-7pt}
+%-----------Achievements-----------
+\section{Achievements}
+      \resumeItemListStart
+        \resumeItem{ \textbf{Coding Proficiency:} Solved \textbf{1000+ problems} on coding platforms using Python and C++, demonstrating strong problem-solving and DSA skills.} 
+        \resumeItem{LeetCode: \textbf{top 1.5\%} with rating \textbf{2050+}}
+        \resumeItem{Hacker Rank: \textbf{5 Star} rating and certified in Problem Solving.}
+        \resumeItem{Ranked among \textbf{top 0.1\%} in JEE Mains 2019 nationally.}
+      \resumeItemListEnd
+\end{document}
